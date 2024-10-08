@@ -3,7 +3,7 @@ FROM maven:3.8.5-openjdk-17 AS build
 
 # Définir le répertoire de travail
 WORKDIR /app
-#cette modification est faite pour tester le fonctionnement de git
+#cette modification est faite pour tester 2 le fonctionnement de git
 
 # Copier le fichier de configuration Maven et les fichiers de l'application
 COPY pom.xml .
